@@ -28,4 +28,16 @@ The program should work exactly like the command `shell < file1 cmd1 | cmd2 > fi
 
 The code must respect the Norm imposed by 42 (see pdf).
 
+__How to test the program?__
+
+* Run the `make` command at the root of the directory.
+* Create a file (for example "infile") and fill it with characters.
+* Run the command `./pipex infile "cat" "wc -l" outfile` which counts the number of lines in a file. This command should be the same as `< infile cat | wc -l > outfile`.
+* You can now `cat outfile` and notice that the program works as expected.
+
+__Other examples:__
+
+* `./pipex infile "grep 'string'" "wc -l" outfile` must be the same as `< infile grep 'string' | wc -l > outfile`. Count how many times 'string' appears in infile and then print that number in outfile.
+* `./pipex infile "ls -l" "grep '.txt'" outfile` should be the same as `< infile ls -l | grep '.txt' > outfile`. Filters and displays in outfile the '.txt' files listed in infile.
+
 ![Rating](rating.png)
