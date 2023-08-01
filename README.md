@@ -20,7 +20,7 @@ __D'autres exemples__ :
 * `./pipex infile "grep 'string'" "wc -l" outfile` doit être identique à `< infile grep 'string' | wc -l > outfile`. Compte combien de fois 'string' apparaît dans le fichier infile puis affiche ce nombre dans outfile.
 * `./pipex infile "ls -l" "grep '.txt'" outfile` doit être identique à `< infile ls -l | grep '.txt' > outfile`. Filtre et affiche dans outfile les fichiers '.txt' listés dans infile.
 
-🇬🇧
+🇺🇸
 
 The goal of the "Pipex" project is to implement a C program that simulates the operation of pipes in a UNIX shell.
 This program takes four arguments: two filenames and two shell commands with their parameters.
