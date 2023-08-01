@@ -1,5 +1,4 @@
 # pipex
-![Rating](rating.png)
 
 🇫🇷
 
@@ -29,3 +28,4 @@ The program should work exactly like the command `shell < file1 cmd1 | cmd2 > fi
 
 The code must respect the Norm imposed by 42 (see pdf).
 
+![Rating](rating.png)
