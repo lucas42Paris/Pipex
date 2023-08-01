@@ -10,15 +10,15 @@ Le code doit respecter la Norme imposée par 42 (voir pdf).
 
 __Comment tester le programme__ ?
 
-* Exécutez la commande `make` à la racine du répertoire
-* Créez un fichier à la racine du projet (par exemple "infile") et remplissez le de caractères
+* Exécutez la commande `make` à la racine du répertoire.
+* Créez un fichier à la racine du projet (par exemple "infile") et remplissez le de caractères.
 * Exécutez la commande `./pipex infile "cat" "wc -l" outfile` qui compte le nombre de lignes dans un fichier. Cette commande doit être identique à `< infile cat | wc -l > outfile`.
 * Vous pouvez maintenant `cat outfile` et remarquez que le programme marche comme attendu.
   
 __D'autres exemples__ :
 
-* `./pipex infile "grep 'string'" "wc -l" outfile` doit être identique à `< infile grep 'string' | wc -l > outfile`. Compte combien de fois 'string' apparaît dans le fichier infile puis ffiche ce nombre dans outfile
-* `./pipex infile "ls -l" "grep '.txt'" outfile` doit être identique à `< infile ls -l | grep '.txt' > outfile`. Filtre et affiche dans outfile les fichiers '.txt' listés dans infile
+* `./pipex infile "grep 'string'" "wc -l" outfile` doit être identique à `< infile grep 'string' | wc -l > outfile`. Compte combien de fois 'string' apparaît dans le fichier infile puis ffiche ce nombre dans outfile.
+* `./pipex infile "ls -l" "grep '.txt'" outfile` doit être identique à `< infile ls -l | grep '.txt' > outfile`. Filtre et affiche dans outfile les fichiers '.txt' listés dans infile.
 
 🇬🇧
 
