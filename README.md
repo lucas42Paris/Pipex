@@ -10,7 +10,7 @@ Le code doit respecter la Norme imposée par 42 (voir pdf).
 
 __Comment tester le programme__ ?
 
-* Exécutez la commande “make” à la racine du répertoire
+* Exécutez la commande `make` à la racine du répertoire
 * Créez un fichier à la racine du projet (par exemple "infile") et remplissez le de caractères
 * Exécutez la commande `./pipex infile "cat" "wc -l" outfile` qui compte le nombre de lignes dans un fichier. Cette commande doit être identique à `< infile cat | wc -l > outfile`.
 * Vous pouvez maintenant `cat outfile` et remarquez que le programme marche comme attendu.
