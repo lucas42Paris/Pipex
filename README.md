@@ -13,7 +13,7 @@ Le code doit respecter la Norme imposée par 42 (voir pdf).
 __Comment tester le programme__ ?
 
 * Exécutez la commande `make` à la racine du répertoire.
-* Créez un fichier (par exemple "infile") et remplissez le de caractères.
+* Créez un fichier (par exemple `infile`) et remplissez le de caractères.
 * Exécutez la commande `./pipex infile "cat" "wc -l" outfile` qui compte le nombre de lignes dans un fichier. Cette commande doit être identique à `< infile cat | wc -l > outfile`.
 * Vous pouvez maintenant `cat outfile` et remarquer que le programme marche comme attendu.
   
@@ -35,7 +35,7 @@ The code must respect the Norm imposed by 42 (see pdf).
 __How to test the program?__
 
 * Run the `make` command at the root of the directory.
-* Create a file (for example "infile") and fill it with characters.
+* Create a file (for example `infile`) and fill it with characters.
 * Run the command `./pipex infile "cat" "wc -l" outfile` which counts the number of lines in a file. This command should be the same as `< infile cat | wc -l > outfile`.
 * You can now `cat outfile` and notice that the program works as expected.
 
